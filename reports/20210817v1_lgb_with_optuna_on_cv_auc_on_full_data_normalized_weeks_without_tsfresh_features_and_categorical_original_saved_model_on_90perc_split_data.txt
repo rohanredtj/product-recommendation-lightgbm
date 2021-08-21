@@ -1,0 +1,36 @@
+
+### split format (LGB)
+Test Baseline: 0.79
+Accuracy: 81.48%
+Recall: 28.81%
+Precision: 65.32%
+AUC: 77.95%
+confusion_matrix [[215922   9391]
+ [ 43719  17690]]
+classification_report               precision    recall  f1-score   support
+
+         0.0       0.83      0.96      0.89    225313
+         1.0       0.65      0.29      0.40     61409
+
+    accuracy                           0.81    286722
+   macro avg       0.74      0.62      0.65    286722
+weighted avg       0.79      0.81      0.79    286722
+
+
+### Metrics on Trimmed test data
+Precision: 65.33%
+
+Client and Visit Level Mean precision 0.23545484353880103
+
+### Cross Validation on Full Dataset
+Full Dataset Baseline: 0.79
+CV accuracy each fold: [0.8118787536359261, 0.8140010184080747, 0.8147561052169, 0.8149392094084165, 0.8130907289988212]
+CV accuracy Mean: 0.8137331631336278
+CV recall each fold: [0.25094381523428827, 0.28489511504681714, 0.2873285374878931, 0.28587587537634945, 0.3040474166040664]
+CV recall Mean: 0.2826181519498829
+CV precision each fold: [0.7019723559558938, 0.6625466549130671, 0.6328446924114794, 0.6291550739493337, 0.6168790929036796]
+CV precision Mean: 0.6486795740266906
+CV auc each fold: [0.7019723559558938, 0.6625466549130671, 0.6328446924114794, 0.6291550739493337, 0.6168790929036796]
+CV auc Mean: 0.6486795740266906
+CV overall_precision_after_trimming each fold: [0.7029168167086784, 0.6640487990850171, 0.6353622001823561, 0.6319252012290524, 0.6180439465747523]
+CV overall_precision_after_trimming Mean: 0.6504593927559712
