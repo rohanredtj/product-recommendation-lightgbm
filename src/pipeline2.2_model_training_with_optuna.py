@@ -18,7 +18,7 @@ if __name__ == '__main__':
     df_recom_path = '../data/db_dump/20210805_get_recom_qty_dump.csv'
     df_sales_path = '../data/db_dump/20210805_get_venta_neta_dump.csv'
     train_path = '../data/processed/train_heldout_format.csv'
-    exp_id = '20210822v3_lgb_with_optuna_on_cv_on_auc_on_overall_precision_after_trimming_normalized_weeks_without_tsfresh_features_and_categorical_original_saved_model_on_heldout_train_format'
+    exp_id = '20210822v3_lgb_with_optuna_on_cv_on_overall_precision_after_trimming_on_full_data_normalized_weeks_without_tsfresh_features_and_categorical_original_saved_model_on_heldout_train_format'
 
     with open(features_lable_path, "rb") as fh:
         features = json.load(fh)

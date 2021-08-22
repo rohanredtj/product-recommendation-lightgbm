@@ -28,12 +28,12 @@ Client and Visit Level Mean precision for class 0: 0.51
 ### Cross Validation on Full Dataset
 Full Dataset Baseline: 0.79
 CV accuracy each fold: [0.81, 0.81, 0.81, 0.81, 0.81]
-CV accuracy Mean: 0.8100000000000002
+CV accuracy Mean: 0.81
 CV recall each fold: [0.25, 0.28, 0.29, 0.29, 0.3]
-CV recall Mean: 0.28200000000000003
+CV recall Mean: 0.28
 CV precision each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
-CV precision Mean: 0.6479999999999999
-CV auc each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
-CV auc Mean: 0.6479999999999999
-CV overall_precision_after_trimming each fold: [0.7029168167086784, 0.6640487990850171, 0.6353622001823561, 0.6319252012290524, 0.6180439465747523]
-CV overall_precision_after_trimming Mean: 0.6504593927559712
+CV precision Mean: 0.65
+CV auc each fold: [0.76, 0.77, 0.75, 0.76, 0.77]
+CV auc Mean: 0.76
+CV overall_precision_after_trimming each fold: [0.7, 0.66, 0.64, 0.63, 0.62]
+CV overall_precision_after_trimming Mean: 0.65

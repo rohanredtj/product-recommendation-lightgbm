@@ -16,7 +16,7 @@ if __name__ == '__main__':
     starttime = timeit.default_timer()
     print("The start time is :",starttime)
     
-    exp_id = '20210822v3_lgb_with_optuna_on_cv_on_auc_on_overall_precision_after_trimming_normalized_weeks_without_tsfresh_features_and_categorical_original_saved_model_on_heldout_train_format'
+    exp_id = '20210822v3_lgb_with_optuna_on_cv_on_overall_precision_after_trimming_on_full_data_normalized_weeks_without_tsfresh_features_and_categorical_original_saved_model_on_heldout_train_format'
     
     CO_timeseries_featurized_path = '../data/processed/full_data.csv'
     model_save_prepath = '../models/'
@@ -194,8 +194,8 @@ if __name__ == '__main__':
     print("CV precision each fold:", pre_scores, file=report_object)
     print("CV precision Mean:", round(np.mean(np.array(pre_scores)),2), file=report_object)
     
-    print("CV auc each fold:", pre_scores, file=report_object)
-    print("CV auc Mean:", round(np.mean(np.array(pre_scores)),2), file=report_object)
+    print("CV auc each fold:", auc_scores, file=report_object)
+    print("CV auc Mean:", round(np.mean(np.array(auc_scores)),2), file=report_object)
 
     print("CV overall_precision_after_trimming each fold:", overall_precision_after_trimming_scores, file=report_object)
     print("CV overall_precision_after_trimming Mean:", round(np.mean(np.array(overall_precision_after_trimming_scores)),2), file=report_object)

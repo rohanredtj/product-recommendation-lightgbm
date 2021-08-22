@@ -35,7 +35,7 @@ CV recall each fold: [0.25, 0.28, 0.28, 0.28, 0.29]
 CV recall Mean: 0.276
 CV precision each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
 CV precision Mean: 0.6479999999999999
-CV auc each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
-CV auc Mean: 0.6479999999999999
+CV auc each fold: [0.77, 0.77, 0.75, 0.76, 0.77]
+CV auc Mean: 0.764
 CV overall_precision_after_trimming each fold: [0.7, 0.67, 0.63, 0.63, 0.62]
 CV overall_precision_after_trimming Mean: 0.65

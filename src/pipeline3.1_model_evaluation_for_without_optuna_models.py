@@ -199,8 +199,8 @@ if __name__ == '__main__':
     print("CV precision each fold:", pre_scores, file=report_object)
     print("CV precision Mean:", np.mean(np.array(pre_scores)), file=report_object)
     
-    print("CV auc each fold:", pre_scores, file=report_object)
-    print("CV auc Mean:", np.mean(np.array(pre_scores)), file=report_object)
+    print("CV auc each fold:", auc_scores, file=report_object)
+    print("CV auc Mean:", np.mean(np.array(auc_scores)), file=report_object)
 
     print("CV overall_precision_after_trimming each fold:", overall_precision_after_trimming_scores, file=report_object)
     print("CV overall_precision_after_trimming Mean:", np.mean(np.array(overall_precision_after_trimming_scores)), file=report_object)
