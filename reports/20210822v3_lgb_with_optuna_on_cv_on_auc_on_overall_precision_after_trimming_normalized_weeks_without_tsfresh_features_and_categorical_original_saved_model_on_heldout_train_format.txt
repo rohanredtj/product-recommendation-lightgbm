@@ -1,0 +1,39 @@
+Test Baseline: 0.79
+Accuracy: 79.40%
+Recall: 3.88%
+Precision: 80.22%
+AUC: 75.23%
+confusion_matrix [[758475   1960]
+ [196841   7951]]
+classification_report               precision    recall  f1-score   support
+
+         0.0       0.79      1.00      0.88    760435
+         1.0       0.80      0.04      0.07    204792
+
+    accuracy                           0.79    965227
+   macro avg       0.80      0.52      0.48    965227
+weighted avg       0.80      0.79      0.71    965227
+
+
+### Metrics on Trimmed test data
+
+Precision: for class 1 80.22%
+
+Precision: for class 0 53.50%
+
+Client and Visit Level Mean precision for class 1: 0.48
+
+Client and Visit Level Mean precision for class 0: 0.52
+
+### Cross Validation on Full Dataset
+Full Dataset Baseline: 0.79
+CV accuracy each fold: [0.81, 0.81, 0.81, 0.81, 0.81]
+CV accuracy Mean: 0.81
+CV recall each fold: [0.25, 0.28, 0.29, 0.29, 0.3]
+CV recall Mean: 0.28
+CV precision each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
+CV precision Mean: 0.65
+CV auc each fold: [0.7, 0.66, 0.63, 0.63, 0.62]
+CV auc Mean: 0.65
+CV overall_precision_after_trimming each fold: [0.7, 0.66, 0.64, 0.63, 0.62]
+CV overall_precision_after_trimming Mean: 0.65
