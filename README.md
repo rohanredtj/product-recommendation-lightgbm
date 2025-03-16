@@ -121,7 +121,3 @@ python pipeline4_model_inference.py
 ## Conclusion
 
 The Product Recommendation System represents a significant advancement in applying machine learning to sales and inventory management. By combining LightGBM's powerful gradient boosting capabilities with Optuna's intelligent hyperparameter optimization, the system delivers highly accurate purchase predictions. This project not only enhances sales predictions but also provides a robust foundation for data-driven decision-making in sales strategy, inventory management, and customer relationship management.
-
-## Contact
-
-If you have any questions or suggestions, please feel free to open an issue or contact me at rohan.rathore93@gmail.com.
